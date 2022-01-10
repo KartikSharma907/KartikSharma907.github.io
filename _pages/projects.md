@@ -2,7 +2,7 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
+author_profile: True
 ---
 
 ## Wake-up Word Detection
