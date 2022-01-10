@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kartik Sharma"
 title_separator          : "-"
 name                     : &name "Kartik Sharma"
-description              : &description "Undergraduate Student at BITS Pilani"
+description              : &description "4th-Year Undergraduate Student at BITS Pilani"
 url                      : https://kartiksharma907.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KartikSharma907/KartikSharma907.github.io"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://linkedin.com/in/kartik-sharma-69b578179"
+  linkedin         : "kartik-sharma-69b578179"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
