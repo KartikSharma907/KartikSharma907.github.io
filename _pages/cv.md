@@ -8,14 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-
 <br>
 - *[CV (2 pages)](CV Kartik Sharma.pdf)*
 
 - *[résumé (1 page)](Resume Kartik Sharma.pdf)*
 
-<br>
-Education
+<br>Education
 ======
 
 Bachelor of Engineering in **Computer Science**  and Master of Science in **Economics**<br>&emsp;
