@@ -8,10 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-<br>
+
 - *[CV (2 pages)](CV Kartik Sharma.pdf)*
 
 - *[résumé (1 page)](Resume Kartik Sharma.pdf)*
+
+You can find more detailed information in my CV. The following is a short summary:
 
 <br>Education
 ======
@@ -65,26 +67,3 @@ Skills
   * Familier: PyTorch
   
   
-Service and leadership
-======
-
-**National Service Scheme, Bits Pilani**<br>&emsp;
-    *Executive Committee Member*<br>&emsp;
-    (Aug 2018 – May 2020 | Pilani, India)
-      
-  * Volunteered in Health and Public Awareness Department.
-  * Volunteered in Blood Donation Camps, Eye Donation Camp, and various health camps in Pilani. Delivered Lectures in village schools on various awareness topics.
-
-**Friends of Tribal Society**<br>&emsp;
-    *Volunteer*<br>&emsp;
-    (Jun 2019 | Bhopal, India)
-      
-  * Volunteered in spreading awareness among tribals regarding Ekal Vidyalaya (provision five years of free, non-formal education to tribal children from the age group 6–14 years) and also collected funds for the same.
-  * Gave lectures on health care education with an emphasis on hygiene, treatment of general diseases, maternal and child care.
-
-**Student-Faculty Council**<br>&emsp;
-    *Member*<br>&emsp;
-    (Aug 2020 – May 2021 | Pilani, India)
-      
-  * Part of a 5 team body who is responsible for all forms of communication between the Professors of Computer Science Department and the third year BE computer science students.
-  * Gave proposals to improve communication between students and teachers.
