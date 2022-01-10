@@ -15,7 +15,7 @@ redirect_from:
 Education
 ======
 
-![](/assets/images/bits_logo.img)*Bachelor of Engineering in **Computer Science***  
+![](/assets/Bits logo.png = 100x100)*Bachelor of Engineering in **Computer Science***  
 and *Master of Science in **Economics***<br> 
     
    Birla Institute of Technology and Science,Pilani, Pilani Campus<br> 
