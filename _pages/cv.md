@@ -11,42 +11,40 @@ redirect_from:
 
 
 <br>
-<br>
 
 Education
 ======
 
-![BITS Pilani](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBirla_Institute_of_Technology_and_Science%2C_Pilani&psig=AOvVaw3t0n7V0kgMK1e1x-FcWW-l&ust=1641926076468000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOi7xLbpp_UCFQAAAAAdAAAAABAD)
-#### Bachelor of Engineering in Computer Science 
-  Birla Institute of Technology and Science,Pilani, Pilani Campus 
-  ***CGPA: 8.68***
-  (August 2018 - Present)
+*Bachelor of Engineering in Computer Science*<br> 
+    Birla Institute of Technology and Science,Pilani, Pilani Campus 
+    ***CGPA: 8.68***
+    (August 2018 - Present)
 
-#### Master of Science in Economics 
-  Birla Institute of Technology and Science,Pilani, Pilani Campus 
-  ***CGPA: 8.68***
-  (August 2018 - Present)
+*Master of Science in Economics*<br> 
+    Birla Institute of Technology and Science,Pilani, Pilani Campus 
+    ***CGPA: 8.68***
+    (August 2018 - Present)
 
 
 Work experience
 ======
 
-#### The Advanced Data Analytics and Parallel Technologies Lab, BITS Pilani
-  **Research Assistant, Under Dr. Poonam Goyal**
-  (Aug 2021 – present | Pilani, India)
-  
-  * Conducting a multivariate time series analysis on the multi-spectral Sentinel data to predict the crop yield in different areas.
-  * Experimenting with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count). 
-  * Incorporating a Gaussian Process to model the Spatio-temporal structure of the given data.
+*The Advanced Data Analytics and Parallel Technologies Lab, BITS Pilani*<br>
+    **Research Assistant, Under Dr. Poonam Goyal**
+    (Aug 2021 – present | Pilani, India)
+    
+   * Conducting a multivariate time series analysis on the multi-spectral Sentinel data to predict the crop yield in different areas.
+   * Experimenting with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count). 
+   * Incorporating a Gaussian Process to model the Spatio-temporal structure of the given data.
 
-#### Economics Department, BITS Pilani
+*Economics Department, BITS Pilani*<br>
    **Independent Researcher, Under guidance of Prof. N.V.M Rao**
    (Jan 2021 – May 2021 | Pilani, India) 
    
    * Worked on top 50 stocks listed on Nifty to effectively optimize asset allocation, and compared performance with standard portfolio management algorithms.
    * Achieved 12% returns on portfolio even during the Covid-19 period.
 
-#### Summer Intern, Web Developer
+*Summer Intern, Web Developer*
    **Kizora Software Private Limited**
    (Jun 2020 – Jul 2020 | Nagpur, India)
    
@@ -58,15 +56,15 @@ Work experience
 Skills
 ======
 
-##### Programming Languages:  
+*Programming Languages:*  
   * Proficient: Python, Java, SQL 
   * Familier: C, HTML, CSS, JavaScript, Octave
 
-##### Libraries: 
+*Libraries:* 
   * Proficient: Keras, Pandas, NumPy, Scikit Learn, MatPlotLib 
   * Familier: OpenCV
 
-##### Frameworks: 
+*Frameworks:* 
   * Proficient: TensorFlow
   * Familier: PyTorch
   
@@ -74,21 +72,21 @@ Skills
 Service and leadership
 ======
 
-#### National Service Scheme, Bits Pilani
+*National Service Scheme, Bits Pilani*
    **Executive Committee Member**
    (Aug 2018 – May 2020 | Pilani, India)
       
    * Volunteered in Health and Public Awareness Department.
    * Volunteered in Blood Donation Camps, Eye Donation Camp, and various health camps in Pilani. Delivered Lectures in village schools on various awareness topics.
 
-#### Friends of Tribal Society
+*Friends of Tribal Society*
   **Volunteer**
   (Jun 2019 | Bhopal, India)
       
    * Volunteered in spreading awareness among tribals regarding Ekal Vidyalaya (provision five years of free, non-formal education to tribal children from the age group 6–14 years) and also collected funds for the same.
    * Gave lectures on health care education with an emphasis on hygiene, treatment of general diseases, maternal and child care.
 
-#### Student-Faculty Council
+*Student-Faculty Council*
    **Member**
    (Aug 2020 – May 2021 | Pilani, India)
    
