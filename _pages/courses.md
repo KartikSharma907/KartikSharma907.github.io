@@ -39,20 +39,32 @@ author_profile: true
 * Econometrics
 * Applied Econometrics
 
+## MOOC Courses
+
+* **Machine Learning by Stanford University (Andrew N.G.)**
+
+**Deep Learning Specialization by DeepLearning.ai**
+* Neural networks and Deep Learning
+* Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+* Structuring Machine Learning Projects
+* Convolutional Neural Networks
+* Sequence Models
+
 ## Other Courses
 
-* Principles of Economics
-* Fundamentals of Finance and Accounting
-* Microeconomics
-* Macroeconomics
-* Derivatives and Risk Management
-* Financial Management
 * Business Analysis and Valuation
-* Security and Portfolio Management
-* General Biology
-* General Chemistry
-* Mechanics, Oscillations & Waves
-* Technical Report Writing
+* Derivatives and Risk Management
 * Electrical Sciences
 * Engineering Graphics
+* Financial Management
+* Fundamentals of Finance and Accounting
+* General Biology
+* General Chemistry
+* Macroeconomics
+* Mechanics, Oscillations & Waves
+* Microeconomics
+* Principles of Economics
+* Security and Portfolio Management
+* Technical Report Writing
+
 
