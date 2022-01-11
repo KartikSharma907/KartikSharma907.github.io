@@ -26,8 +26,8 @@ author_profile: true
 
 ## Discipline Electives
 
-* **Neural Networks & Fuzzy Logic**
 * **Machine Learning (Ongoing)**
+* **Neural Networks & Fuzzy Logic**
 
 ## Mathematics
 
@@ -44,11 +44,12 @@ author_profile: true
 * **Machine Learning by Stanford University (Andrew N.G.)**
 
 **Deep Learning Specialization by DeepLearning.ai**
-* Neural networks and Deep Learning
-* Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
-* Structuring Machine Learning Projects
 * Convolutional Neural Networks
+* Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+* Neural networks and Deep Learning
 * Sequence Models
+* Structuring Machine Learning Projects
+
 
 ## Other Courses
 
