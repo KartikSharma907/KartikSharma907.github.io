@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Contact Me"
+title: "Get in Touch!"
 permalink: /contact/
-author_profile: false
+author_profile: true
 ---
 
-I am available via email if you want to talk about mutual interests, relevant work, or for a random anime conversation. 
+I am actively looking for new research opportunities starting in fall 2022. If you think my research interests align with you and want to talk about mutual interests, relevant work, connect with me on LinkedIn or drop me an e-mail!
 
-Reach me at: f20180789@pilani.bits-pilani.ac.in or on Linkedin :)
+Reach me at: f20180789@pilani.bits-pilani.ac.in 
