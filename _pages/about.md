@@ -16,9 +16,9 @@ redirect_from:
 
 <p style="text-align: justify">I have interned at Kizora Software Private Limited, a solution provider on a cloud platform focused on data processing and analytics. I built a website to provide optimized routes (with any number of stoppages) to travel from one place to another (through any mode of travel).</p>
 
-<p style="text-align: justify">I am either at the gym or binging tv shows/animes in my free time. I love traveling, covering almost every state in India. I have traveled around 20 states in India and Singapore, and Malaysia. I am a big fan of Weekend and Travis Scott :)</p><br>
+<p style="text-align: justify">I am either at the gym or binging tv shows/animes in my free time. I love traveling, and I have traveled 20 states in India, and also experienced the culture of Singapore and Malaysia. I like to relax by listening to songs of Weeknd and Travis Scott.</p><br>
 
-Thank You for visiting my site!
+Thank You for visiting my site and if you have any inputs, would love to hear from you!
 
 
 
