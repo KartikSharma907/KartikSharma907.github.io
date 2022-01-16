@@ -15,7 +15,11 @@ redirect_from:
 
 You can find more detailed information in my CV. The following is a short summary:
 
-<br>Education
+<br>Research Interests
+======
+<p align="justify">I am a passionate Data Science enthusiast having primary research interests in the field of Machine Learning and Data Analytics. My research experience and projects have inculcated a strong passion for Machine Learning, especially in the field of Computer Vision and Natural Language Processing. I am fascinated by the fabulous world of human-computer interaction. My current research is focused towards object detetction and solving remote sensing problems using computer vision. I am inclined to pursue higher studies and research in this domain and further contribute with this expertise in diverse domains. </p>
+
+Education
 ======
 
 Bachelor of Engineering in **Computer Science**  and Master of Science in **Economics**<br>&emsp;
