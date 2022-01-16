@@ -49,6 +49,7 @@ author_profile: true
   * Neural networks and Deep Learning
   * Sequence Models
   * Structuring Machine Learning Projects
+* Introduction to TensorFlow for Artificial Intelligence by Laurence Moloney (Google Brain), Coursera
 
 ## Other Courses
 
