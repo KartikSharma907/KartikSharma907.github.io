@@ -32,7 +32,7 @@ Work experience
 
 **The Advanced Data Analytics and Parallel Technologies Lab, BITS Pilani**<br>&emsp;
 Research Assistant<br>&emsp;
-Aug 2021 – present | Pilani, India)
+(Aug 2021 – present | Pilani, India)
 
 * Conducting a multivariate time series analysis on the multi-spectral Sentinel data to predict the crop yield in different areas. &emsp;
 * Experimenting with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count).
@@ -67,6 +67,6 @@ Libraries:
 
 Frameworks: 
 * Proficient: TensorFlow
-* Familier: PyTorch
+* Familier: PyTorch, Django, Flask
   
   
