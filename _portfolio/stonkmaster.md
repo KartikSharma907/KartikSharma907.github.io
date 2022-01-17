@@ -1,7 +1,7 @@
 ---
 title: 'Stock Price Simulator'
 excerpt: "We developed a real time stock price prediction tool implementing machine learning algorithms like Linear regressor, KNN, CART and Support Vector Regressors. Implemented the REST API to extract real time stock price data and analyzed the interdependency of different stock prices using LSTM networks.
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/stock_prediction.png'>"
 collection: portfolio 
 tags:
   - Rest-API
