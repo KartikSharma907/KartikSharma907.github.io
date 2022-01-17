@@ -9,11 +9,7 @@ tags:
   - Intersection-over-union
 ---
 
-[Code](https://github.com/KartikSharma907/Car-Detection-with-YOLO)
-
-
 I convolutionally implemented object detection on a car dataset using the YOLO model, which was further modified using a U-net architecture. The YOLO model was stacked with Non-max suppression layers using IOU grid analysis to obtain the most accurate boundary boxes.
-
 
 ## Overview
 The detection of vehicles ahead and the traffic conditions while driving are important factors for safe driving, accidental cruising and automatic driving and tracking. Especially real-time perception plays an important role in the development of autonomous vehicles. Therefore, image processing can be used for these purposes.
@@ -37,3 +33,7 @@ Conventional CNN networks generate regional predictions to suggest bounding boxe
 ○ For each of the 19 x 19 grid cells, find the maximum of the probability scores, that is, taking a max across the 80 classes, one maximum for each of the 5 anchor boxes.
 
 ○ Select only one box when several boxes overlap with each other and detect the same object using non-max suppression.
+
+
+[Code](https://github.com/KartikSharma907/Car-Detection-with-YOLO)
+
