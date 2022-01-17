@@ -1,7 +1,7 @@
 ---
 title: 'Art Generation using Neural Style Transfer'
 excerpt: "Using transfer learning to generate novel artistic images by building deep ConvNets implementing Neural Style Transfer. Used pretrained VGG-19 model for image feature extraction and optimized the content image using cost analysis to obtain desired style.
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/nst.png'>"
 collection: portfolio 
 tags:
   - Transfer Learning
