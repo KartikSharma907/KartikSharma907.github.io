@@ -1,7 +1,7 @@
 ---
 title: 'Wake-up Word Detection'
-date: 2014-08-14
-permalink: /posts/wakeup_word/
+date: 2021-07-01
+permalink: /posts/2021/06/wakeup-word/
 tags:
   - Gated Recurrent Units
   - Attention based sequence
