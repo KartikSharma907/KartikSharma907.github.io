@@ -1,6 +1,7 @@
 ---
 title: 'Car Detection using YOLO: You Only Look Once'
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "I convolutionally implemented object detection on a car dataset using the YOLO model, which was further modified using a U-net architecture. The YOLO model was stacked with Non-max suppression layers using IOU grid analysis to obtain the most accurate boundary boxes.
+<br/><img src='/images/500x300.png'>"
 collection: portfolio 
 tags:
   - Yolo Architechture
@@ -10,7 +11,6 @@ tags:
 ---
 
 
-I convolutionally implemented object detection on a car dataset using the YOLO model, which was further modified using a U-net architecture. The YOLO model was stacked with Non-max suppression layers using IOU grid analysis to obtain the most accurate boundary boxes.
 
 ## Overview
 The detection of vehicles ahead and the traffic conditions while driving are important factors for safe driving, accidental cruising and automatic driving and tracking. Especially real-time perception plays an important role in the development of autonomous vehicles. Therefore, image processing can be used for these purposes.
