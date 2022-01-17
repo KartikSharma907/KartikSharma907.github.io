@@ -1,7 +1,7 @@
 ---
 title: 'Car Detection using YOLO: You Only Look Once'
 excerpt: "I convolutionally implemented object detection on a car dataset using the YOLO model, which was further modified using a U-net architecture. The YOLO model was stacked with Non-max suppression layers using IOU grid analysis to obtain the most accurate boundary boxes.
-<br/><img src='/images/500x300.png'>"
+<br/><img src='/images/car_detect_yolo.png'>"
 collection: portfolio 
 tags:
   - Yolo Architechture
