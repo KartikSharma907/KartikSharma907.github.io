@@ -1,7 +1,7 @@
 ---
 title: 'Car Detection using YOLO: You Only Look Once'
 date: June 2021
-permalink: /posts/yolo/
+permalink: /posts/2012/08/blog-post-4/
 tags:
   - Yolo Architechture
   - Object Detection
