@@ -1,6 +1,6 @@
 ---
 title: 'Wake-up Word Detection'
-excerpt: "I constructed a synthesized speech dataset and implemented an Attention based Sequence Network to build a trigger word / keyword detection model using GRU (Gated Recurrent Units) Network.<br/><img src='/images/wakeup_word.jpg' width="200">"
+excerpt: "I constructed a synthesized speech dataset and implemented an Attention based Sequence Network to build a trigger word/keyword detection model using GRU (Gated Recurrent Units) Network.<br/><img src='/images/wakeup_word.jpg'>"
 collection: portfolio 
 tags:
   - Gated Recurrent Units
