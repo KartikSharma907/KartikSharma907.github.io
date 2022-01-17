@@ -1,9 +1,9 @@
 ---
 title: 'Car Detection using YOLO: You Only Look Once'
 collection: publications
-permalink: /publications/2021-06-01-yolo
+permalink: /publications/yolo
 excerpt: 
-date: 2021-06-01
+date: 
 venue: 
 paperurl:
 citation: 
