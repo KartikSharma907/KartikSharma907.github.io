@@ -1,7 +1,7 @@
 ---
 title: 'Art Generation using Neural Style Transfer'
-Dated: June 2021
-permalink: /posts/neural_style_transfer/
+Dated: 2021-06-15
+permalink: /posts/2021/06/neural-style-transfer/
 tags:
   - Transfer Learning
   - VGG-19
