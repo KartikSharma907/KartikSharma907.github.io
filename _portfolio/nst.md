@@ -20,13 +20,12 @@ tags:
 
 ## Methodology
 <p align="justify">The main aim of NST is for the content in "generated" image G to match the content of "content" image C. For this, I have calculated the content cost function, which is defined as:</p><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=J_%7Bcontent%7D%28C%2CG%29%20%3D%20%5Cfrac%7B1%7D%7B4%20%5Ctimes%20n_H%20%5Ctimes%20n_W%20%5Ctimes%20n_C%7D%5Csum%20_%7B%20%5Ctext%7Ball%20entries%7D%7D%20%28a%5E%7B%28C%29%7D%20-%20a%5E%7B%28G%29%7D%29%5E2%5Ctag%7B1%7D%20%20&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=0" align="center" border="0" alt="J_{content}(C,G) = \frac{1}{4 \times n_H \times n_W \times n_C}\sum _{ \text{all entries}} (a^{(C)} - a^{(G)})^2\tag{1}  " width="400" height="44" />
+[Content Cost](/images/Jcontent.jpg)
 * Here, nH, nW and nC are the height, width and number of channels of the hidden layer, and appear in a normalization term in the cost.
 * a(C) and a(G) are the 3D volumes corresponding to a hidden layer's activations.
 
 <p align="justify">and the style cost function, which is defined as:</p><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=J_%7Bstyle%7D%5E%7B%5Bl%5D%7D%28S%2CG%29%20%3D%20%5Cfrac%7B1%7D%7B4%20%5Ctimes%20%7Bn_C%7D%5E2%20%5Ctimes%20%28n_H%20%5Ctimes%20n_W%29%5E2%7D%20%5Csum%20_%7Bi%3D1%7D%5E%7Bn_C%7D%5Csum_%7Bj%3D1%7D%5E%7Bn_C%7D%28G%5E%7B%28S%29%7D_%7B%28gram%29i%2Cj%7D%20-%20G%5E%7B%28G%29%7D_%7B%28gram%29i%2Cj%7D%29%5E2%5Ctag%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=0" align="center" border="0" alt="J_{style}^{[l]}(S,G) = \frac{1}{4 \times {n_C}^2 \times (n_H \times n_W)^2} \sum _{i=1}^{n_C}\sum_{j=1}^{n_C}(G^{(S)}_{(gram)i,j} - G^{(G)}_{(gram)i,j})^2\tag{2}" width="483" height="50" />
-
+[Style Cost](/images/Jstyle.jpg)
 * G(S)gram: Gram matrix of the "style" image.
 * G(G)gram: Gram matrix of the "generated" image.
 
@@ -43,4 +42,4 @@ tags:
 
 
 [View Code](https://github.com/KartikSharma907/Art-Generation-with-Neural-Style-Transfer)
-</div>  
+
