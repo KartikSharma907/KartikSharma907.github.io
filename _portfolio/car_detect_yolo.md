@@ -10,7 +10,7 @@ tags:
   - Intersection-over-union
 ---
 
-
+<div align="justify">
 ## Overview
 Vehicle detection has become an essential component in traffic surveillance and automatic driving. This technology uses computer vision to detect different vehicles in video or real-time via a camera. It finds its applications in traffic control, car tracking, creating parking sensors, number-plate detection, and many more.
 
@@ -29,3 +29,4 @@ Unlike classifier-based approaches, YOLO is trained on a loss function that dire
 * The YOLO architecture is: IMAGE (m, 608, 608, 3) -> DEEP CNN -> ENCODING (m, 19, 19, 5, 85).
 
 [View Code](https://github.com/KartikSharma907/Car-Detection-with-YOLO)
+</div>
