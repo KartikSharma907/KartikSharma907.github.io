@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p align="justify">Hi! I am Kartik. I am a pre-final year undergraduate computer science engineering student at Birla Institute of Technology and Science (BITS) Pilani. My research interests primarily lie in machine learning and artificial intelligence and their applications in different domains. I am fascinated by the fabulous world of human-computer interaction and have developed an interest in working on various computer vision problems.</p>
+<p align="justify">Hi! I am Kartik. I am a pre-final year undergraduate computer science engineering student at Birla Institute of Technology and Science (BITS) Pilani. I am fascinated by human-computer interaction and its applications in real life. My research interests primarily lie in machine learning and artificial intelligence and their applications in different domains. My current research focuses on object detection, image segmentation, and solving remote sensing problems using computer vision. </p>
 
 <p align="justify">I am currently working as a research assistant at <a href="https://www.bits-pilani.ac.in/pilani/computerscience/AdvancedDataAnalyticsParallelTechnologiesLaboratory">The Advanced Data Analytics and Parallel Technologies Lab</a>, BITS Pilani, to estimate crop yield using multivariate time series analysis of fusion of Landsat and Sentinel satellite data.</p>
 
