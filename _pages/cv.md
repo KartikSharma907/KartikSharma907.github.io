@@ -22,10 +22,10 @@ You can find more detailed information in my CV. The following is a short summar
 Education
 ======
 
-Bachelor of Engineering in **Computer Science**  and Master of Science in **Economics**<br>&emsp;
-Birla Institute of Technology and Science,Pilani, Pilani Campus<br> &emsp;
-**CGPA: 8.68**<br>&emsp;
-Relevant Courses: Machine Learning (on going), Neural Networks and Fuzzy Logic, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks (on going)
+**Bachelor of Engineering (Hons.) in Computer Science  and Master of Science in Economics**<br>&emsp;
+**Birla Institute of Technology and Science,Pilani, Pilani Campus**
+* **CGPA: 8.68**
+* Relevant Courses: Machine Learning (on going), Neural Networks and Fuzzy Logic, Probability and Statistics, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks (on going)
 
 Work experience
 ======
@@ -36,13 +36,13 @@ Project Supervisor - [Dr. Poonam Goyal](https://www.bits-pilani.ac.in/pilani/poo
 (Aug 2021 – present | Pilani, India)
 
 * Conducted a **multivariate time series analysis** on the multi-spectral sentinel data to predict the crop yield in different areas. &emsp;
-* Experimented with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count).
+* Experimented with different deep learning architectures (including **CNN and LSTMs**), trained on dimensionally reduced data (treating images as a histogram of pixel count).
 * Incorporated a **Gaussian Process** to model the Spatio-temporal structure of the given data.
 * Incorporated a **Siamese network** architecture to deal with the fused remote sensing data.
 
 **Economics Department, BITS Pilani**<br>&emsp;
 **Independent Researcher**<br>&emsp;
-Project Supervisor - [Dr. NV M Rao](https://www.bits-pilani.ac.in/Pilani/nvmrao/Profile) <br>&emsp;
+Project Supervisor - [Dr. N V M Rao](https://www.bits-pilani.ac.in/Pilani/nvmrao/Profile) <br>&emsp;
 (Jan 2021 – May 2021 | Pilani, India)
       
 * Worked on top 50 stocks listed on Nifty to effectively optimize asset allocation, and compared performance with standard portfolio management algorithms.
