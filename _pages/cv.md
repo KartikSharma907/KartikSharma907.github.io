@@ -30,6 +30,15 @@ Education
 Work experience
 ======
 
+**Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani**
+**Research Assistant**<br>&emsp;
+Project Supervisor - [Dr. Dhiraj Sangwan](https://www.ceeri.res.in/profiles/dhiraj-sangwan/)<br>&emsp;
+(Jan 2022 – present | Pilani, India)
+
+* Developed an **instance segmentation framework** to recognize highly cluttered instances of contraband items during baggage security checks.
+* Constructed an **unsupervised** anomaly detection framework using **encoder-decoder** architecture.
+* Plan on improving the performance by deploying a more **adaptive attention mechanism** using a 3D object detection approach.
+
 **The Advanced Data Analytics and Parallel Technologies Lab, BITS Pilani**<br>&emsp;
 **Research Assistant**<br>&emsp;
 Project Supervisor - [Dr. Poonam Goyal](https://www.bits-pilani.ac.in/pilani/poonam/profile) <br>&emsp;
