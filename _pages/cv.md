@@ -17,7 +17,7 @@ You can find more detailed information in my CV. The following is a short summar
 
 <br>Research Interests
 ======
-<p align="justify">I am a passionate Data Science enthusiast having primary research interests in the field of Machine Learning and Data Analytics. My research experience and projects have inculcated a strong passion for Machine Learning, especially in the field of Computer Vision and Natural Language Processing. I am fascinated by the fabulous world of human-computer interaction. My current research is focused towards object detetction and solving remote sensing problems using computer vision. I am inclined to pursue higher studies and research in this domain and further contribute with this expertise in diverse domains. </p>
+<p align="justify">I am a Data Science enthusiast with primary research interests in Machine Learning, Artificial Intelligence, and Data Analytics. My research experience and projects have inculcated a strong passion for Machine Learning, especially in Computer Vision and Natural Language Processing. I am fascinated by human-computer interaction and its applications in real life. My current research focuses on object detection and solving remote sensing problems using computer vision. I am inclined to pursue higher studies and research in this domain and further contribute with this expertise in diverse domains. </p>
 
 Education
 ======
@@ -25,25 +25,28 @@ Education
 Bachelor of Engineering in **Computer Science**  and Master of Science in **Economics**<br>&emsp;
 Birla Institute of Technology and Science,Pilani, Pilani Campus<br> &emsp;
 **CGPA: 8.68**<br>&emsp;
-(August 2018 - Present)
+Relevant Courses: Machine Learning (on going), Neural Networks and Fuzzy Logic, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks (on going)
 
 Work experience
 ======
 
 **The Advanced Data Analytics and Parallel Technologies Lab, BITS Pilani**<br>&emsp;
-Research Assistant<br>&emsp;
+**Research Assistant**<br>&emsp;
+Project Supervisor - [Dr. Poonam Goyal](https://www.bits-pilani.ac.in/pilani/poonam/profile) <br>&emsp;
 (Aug 2021 – present | Pilani, India)
 
-* Conducting a multivariate time series analysis on the multi-spectral Sentinel data to predict the crop yield in different areas. &emsp;
-* Experimenting with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count).
-* Incorporating a Gaussian Process to model the Spatio-temporal structure of the given data.
+* Conducted a **multivariate time series analysis** on the multi-spectral sentinel data to predict the crop yield in different areas. &emsp;
+* Experimented with different deep learning architectures (including CNN and LSTMs), trained on dimensionally reduced data (treating images as a histogram of pixel count).
+* Incorporated a **Gaussian Process** to model the Spatio-temporal structure of the given data.
+* Incorporated a **Siamese network** architecture to deal with the fused remote sensing data.
 
 **Economics Department, BITS Pilani**<br>&emsp;
-Independent Researcher<br>&emsp;
+**Independent Researcher**<br>&emsp;
+Project Supervisor - [Dr. NV M Rao](https://www.bits-pilani.ac.in/Pilani/nvmrao/Profile) <br>&emsp;
 (Jan 2021 – May 2021 | Pilani, India)
       
 * Worked on top 50 stocks listed on Nifty to effectively optimize asset allocation, and compared performance with standard portfolio management algorithms.
-* Achieved 12% returns on portfolio even during the Covid-19 period.
+* Achieved **12% returns** on portfolio even during the Covid-19 period.
 
 **Kizora Software Private Limited**<br>&emsp;
  Summer Intern, Web Developer<br>&emsp;
