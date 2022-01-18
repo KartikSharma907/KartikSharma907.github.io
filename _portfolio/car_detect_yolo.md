@@ -13,7 +13,7 @@ tags:
 ## Overview
 <p align="justify">Vehicle detection has become an essential component in traffic surveillance and automatic driving. This technology uses computer vision to detect different vehicles in video or real-time via a camera. It finds its applications in traffic control, car tracking, creating parking sensors, number-plate detection, and many more.</p>
 
-<p align="justify">A wide range of computer vision applications has become available for object detection and tracking. Mainly, CNN-based object sensors have made successful and essential steps in detecting objects with the advancement of technology. **YOLO ("you only look once")** is a popular algorithm because it achieves high accuracy while also being able to run in real-time, almost clocking 45 frames per second.</p>
+<p align="justify">A wide range of computer vision applications has become available for object detection and tracking. Mainly, CNN-based object sensors have made successful and essential steps in detecting objects with the advancement of technology. <b>YOLO</b> ("you only look once") is a popular algorithm because it achieves high accuracy while also being able to run in real-time, almost clocking 45 frames per second.</p>
 
 
 ## Methodology
