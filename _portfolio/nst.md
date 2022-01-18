@@ -20,12 +20,12 @@ tags:
 
 ## Methodology
 <p align="justify">The main aim of NST is for the content in "generated" image G to match the content of "content" image C. For this, I have calculated the content cost function, which is defined as:</p><br>
-[Content Cost](/images/Jcontent.jpg)
+![Content Cost](/images/Jcontent.jpg)
 * Here, nH, nW and nC are the height, width and number of channels of the hidden layer, and appear in a normalization term in the cost.
 * a(C) and a(G) are the 3D volumes corresponding to a hidden layer's activations.
 
 <p align="justify">and the style cost function, which is defined as:</p><br>
-[Style Cost](/images/Jstyle.jpg)
+![Style Cost](/images/Jstyle.jpg)
 * G(S)gram: Gram matrix of the "style" image.
 * G(G)gram: Gram matrix of the "generated" image.
 
