@@ -30,6 +30,13 @@ Education
 Work experience
 ======
 
+**Samsung Research Institute Bangalore**
+**Research Intern**<br>&emsp;
+(May 2022 – present | Bangalore, India)
+
+* Working on scalability and robustness of transformer-based multi-label classification problem for predicting the action in an
+image. (Example: A dog is playing with a ball)
+
 **Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani**
 **Research Assistant**<br>&emsp;
 Project Supervisor - [Dr. Dhiraj Sangwan](https://www.ceeri.res.in/profiles/dhiraj-sangwan/)<br>&emsp;
