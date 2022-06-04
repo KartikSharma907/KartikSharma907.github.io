@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-- *[CV (2 pages)](CV Kartik Sharma.pdf)*
+- *[CV (2 pages)](CV_Kartik Sharma.pdf)*
 
 - *[résumé (1 page)](Resume Kartik Sharma.pdf)*
 
@@ -25,19 +25,19 @@ Education
 **Bachelor of Engineering (Hons.) in Computer Science  and Master of Science in Economics**<br>&emsp;
 **Birla Institute of Technology and Science,Pilani, Pilani Campus**
 * **CGPA: 8.68**
-* Relevant Courses: Machine Learning (on going), Neural Networks and Fuzzy Logic, Probability and Statistics, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks (on going)
+* Relevant Courses: Machine Learning, Neural Networks and Fuzzy Logic, Probability and Statistics, Data Structures and Algorithms, Database Systems, Operating Systems, Computer Networks 
 
 Work experience
 ======
 
-**Samsung Research Institute Bangalore**
+**Samsung Research Institute Bangalore**<br>&emsp;
 **Research Intern**<br>&emsp;
 (May 2022 – present | Bangalore, India)
 
-* Working on scalability and robustness of transformer-based multi-label classification problem for predicting the action in an
+* Working on **scalability** and **robustness** of **transformer-based** multi-label classification problem for predicting the action in an
 image. (Example: A dog is playing with a ball)
 
-**Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani**
+**Central Electronics Engineering Research Institute (CSIR-CEERI), Pilani**<br>&emsp;
 **Research Assistant**<br>&emsp;
 Project Supervisor - [Dr. Dhiraj Sangwan](https://www.ceeri.res.in/profiles/dhiraj-sangwan/)<br>&emsp;
 (Jan 2022 – present | Pilani, India)
@@ -85,7 +85,7 @@ Libraries:
 * Familier: OpenCV
 
 Frameworks: 
-* Proficient: TensorFlow
-* Familier: PyTorch, Django, Flask
+* Proficient: TensorFlow, PyTorch
+* Familier: Django, Flask
   
   
