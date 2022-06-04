@@ -26,7 +26,7 @@ author_profile: true
 
 ## Discipline Electives
 
-* **Machine Learning (Ongoing)**
+* **Machine Learning**
 * **Neural Networks & Fuzzy Logic**
 
 ## Mathematics
