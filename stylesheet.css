@@ -363,15 +363,43 @@ tr[bgcolor="#ffffd0"] {
   font-size: 13px;
 }
 
-/* ---------- Interest line ---------- */
-.interest-line {
-  font-style: italic;
-  color: var(--color-text-muted);
-  border-left: 3px solid var(--color-link);
-  padding-left: 10px;
-  margin: 12px 0;
-  font-size: 13.5px;
+/* ---------- Bio icon links ---------- */
+.bio-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 14px;
 }
+
+.bio-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-link);
+  border: 1px solid var(--color-border);
+  background: linear-gradient(135deg, var(--color-card-bg) 0%, var(--color-card-grad-end) 100%);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.bio-links a:hover {
+  color: var(--color-link-hover);
+  border-color: var(--color-link-hover);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.bio-links a svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
 
 /* ---------- Dark mode toggle button ---------- */
 .theme-toggle {
