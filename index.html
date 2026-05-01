@@ -24,10 +24,8 @@
                 </p>
 
                 <p>
-                  I’m an incoming MSR student at Carnegie Mellon University (Fall ’25) focused on building intelligent systems that learn and reason across modalities. 
-                  Previously, I was a Senior Engineer at Samsung R&D Bangalore, where I built safety filters for Samsung’s LLMs/LVMs and shipped on-device models to flagship devices. 
+                  I’m a first-year MSR student at Carnegie Mellon University focused on building intelligent systems that learn and reason about the world through multiple modalities. I am advised by Prof. <a href="https://laszlojeni.com" target="_blank">Laszlo A. Jeni</a> and i currently work on 3D/4D reconstruction from videos and hand-object interaction.
                   I earned a dual degree in Computer Science & Economics from BITS Pilani, completing research with Prof. <a href="https://cds.iisc.ac.in/faculty/venky/" target="_blank">R. Venkatesh Babu</a> (Long-tail Image Generation with StyleGANs) and Prof. <a href="https://www.bits-pilani.ac.in/pilani/poonam-goyal/" target="_blank">Prof. Poonam Goyal</a> (Multimodal Crop-yield Prediction). 
-                  I now aim to advance RL + Multimodal reasoning for robotics with safe, transparent, real-world deployment.
                 </p>
                 
                 <!-- <p>
@@ -50,7 +48,7 @@
                   <a href="mailto:kartiksh@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
                   <a href="data/CV_Kartik_Sharma.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://github.com/KartikSharma907">Github</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.es/citations?user=sGYGD4wAAAAJ&hl=sv">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=sGYGD4wAAAAJ">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/kartik-sharmma-69b578179/">LinkedIn</a>
                 </p>
               </td>
@@ -98,6 +96,31 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="fpsbench_stop()" onmouseover="fpsbench_start()" bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='fpsbench_image'><img src='images/fpsbench.png' width="160"></div>
+                  <img src='images/fpsbench.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function fpsbench_start() {
+                    document.getElementById('fpsbench_image').style.opacity = "1";
+                  }
+
+                  function fpsbench_stop() {
+                    document.getElementById('fpsbench_image').style.opacity = "0";
+                  }
+                  fpsbench_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">FPSBench: A Benchmark for Video Understanding at High Frame Rates</span><br>
+                R. Choudhury, J.S. Dandurand, K. Qiu, K.M. Bhat, Kartik Sharma, L. Dahiya, Y. Zhao, S. Kundu, C.H. Lin, K. Kitani, L.A. Jeni<br>
+                <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)</em><br>
+                <a href="https://drive.google.com/file/d/190AQWyvzKlzr6YxPwiJmY59skPWhw6c0/view?usp=share_link">Paper</a>
+              </td>
+            </tr>
+
             <tr onmouseout="noisytwins_stop()" onmouseover="noisytwins_start()" bgcolor="#ffffd0">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <a href='images/NoisyTwins-poster-A0.png' target="_blank" rel="noopener">
@@ -185,6 +208,74 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="mardirl_stop()" onmouseover="mardirl_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a href='images/mardirl.png' target="_blank" rel="noopener">
+          <div class="one">
+            <div class="two" id='mardirl_image'><img src='images/mardirl.png' width="160"></div>
+            <img src='images/mardirl.png' width="160">
+          </div>
+        </a>
+        <script type="text/javascript">
+          function mardirl_start() {
+            document.getElementById('mardirl_image').style.opacity = "1";
+          }
+
+          function mardirl_stop() {
+            document.getElementById('mardirl_image').style.opacity = "0";
+          }
+          mardirl_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://sites.google.com/andrew.cmu.edu/16-831-mardirl-project/home">
+          <span class="papertitle">RL for Articulated Object Manipulation in ManiSkill3</span>
+        </a>
+        <br>
+        <strong>Kartik Sharma</strong>, Kshitiz, Soumojit Bhattacharya
+        <br>
+        <em>CMU 16-831: Introduction to Robot Learning</em>, Spring 2026
+        <br>
+        <a href="https://sites.google.com/andrew.cmu.edu/16-831-mardirl-project/home">project page</a>
+        <p>Benchmarked PPO, SAC, and Model-Based RL for the OpenCabinetDrawer-v1 task in ManiSkill3, and proposed three modifications: Intrinsic Curiosity Module (ICM) with PPO (70.1% success), Demonstration-Augmented SAC (63.3% success), and Behavior Cloning warm-start with RL fine-tuning (58.0% success).</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="diffusion_stop()" onmouseover="diffusion_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <a href='images/diffusion_flow.png' target="_blank" rel="noopener">
+          <div class="one">
+            <div class="two" id='diffusion_image'><img src='images/diffusion_flow.png' width="160"></div>
+            <img src='images/diffusion_flow.png' width="160">
+          </div>
+        </a>
+        <script type="text/javascript">
+          function diffusion_start() {
+            document.getElementById('diffusion_image').style.opacity = "1";
+          }
+
+          function diffusion_stop() {
+            document.getElementById('diffusion_image').style.opacity = "0";
+          }
+          diffusion_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/KartikSharma907/Diffusion-and-Flow-Matching">
+          <span class="papertitle">Diffusion &amp; Flow Matching</span>
+        </a>
+        <br>
+        <strong>Kartik Sharma</strong>
+        <br>
+        <em>CMU 10-799: Diffusion &amp; Flow Matching</em>, Spring 2026
+        <br>
+        <a href="https://github.com/KartikSharma907/Diffusion-and-Flow-Matching">project page</a>
+        /
+        <a href="https://github.com/KartikSharma907/Diffusion-and-Flow-Matching">code</a>
+        <p>PyTorch implementation of DDPM, DDIM, Flow Matching, and Flow Map Matching for image generation on CelebA-64. Features a full U-Net architecture with FiLM conditioning, a Dual-Time U-Net for Flow Map Matching, diagonal-annealed time-pair sampling, and JVP-based Lagrangian PDE loss via <code>torch.func</code>.</p>
+      </td>
+    </tr>
 
     <tr onmouseout="wakeup_word_stop()" onmouseover="wakeup_word_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
