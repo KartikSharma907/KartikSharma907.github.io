@@ -426,9 +426,27 @@
 
           <!-- Visitor globe (MapMyVisitors) -->
           <!-- globe.js sizes the globe to its parent's width, so keep this wrapper small -->
-          <div style="width:120px;margin:8px auto 24px;">
+          <div id="visitorGlobe" style="width:120px;margin:8px auto 24px;">
             <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=A-N2hT2kccQm6ldVKnrGNXgep_uooM0-B1Nno1D2UqE"></script>
           </div>
+          <script>
+            // globe.js hard-codes its link to the MapMyVisitors homepage; point it at the stats page instead.
+            (function() {
+              var statsUrl = "https://mapmyvisitors.com/web/1c7s0";
+              if (!statsUrl) return;
+              var box = document.getElementById('visitorGlobe');
+              function fix() {
+                var a = document.getElementById('mmvst_a');
+                if (!a) return false;
+                a.href = statsUrl; a.target = '_blank'; a.rel = 'noopener';
+                return true;
+              }
+              if (!fix() && window.MutationObserver) {
+                var obs = new MutationObserver(function() { if (fix()) obs.disconnect(); });
+                obs.observe(box, { childList: true, subtree: true });
+              }
+            })();
+          </script>
 
         </td>
       </tr>
