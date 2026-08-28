@@ -127,6 +127,63 @@
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <!-- JointHOI -->
+            <tr onmouseout="jointhoi_stop()" onmouseover="jointhoi_start()" bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <a href="images/jointhoi.png" target="_blank" rel="noopener">
+                  <div class="one">
+                    <div class="two" id="jointhoi_image"><img src="images/jointhoi.png" width="160" alt="JointHOI"></div>
+                    <img src="images/jointhoi.png" width="160" alt="JointHOI">
+                  </div>
+                </a>
+                <script type="text/javascript">
+                  function jointhoi_start() { document.getElementById('jointhoi_image').style.opacity = "1"; }
+                  function jointhoi_stop()  { document.getElementById('jointhoi_image').style.opacity = "0"; }
+                  jointhoi_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="venue-badge">ECCV 2026</span><br>
+                <span class="papertitle">JointHOI: Jointly Generating Contact Maps Enhances Hand Object Interaction Generation</span><br>
+                M. Song, J. Cho, J. Kim, A. Bal, <strong>Kartik Sharma</strong>, Y. Yu, L.A. Jeni, J. Noh<br>
+                <em>European Conference on Computer Vision (ECCV), 2026</em><br>
+                A single-stage diffusion framework that jointly generates 3D hand-object motion and dynamic contact maps from text, with contact-guided sampling to reduce penetration and floating.<br>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/abs/2607.01768" target="_blank" rel="noopener">arXiv</a>
+                  <a href="https://arxiv.org/pdf/2607.01768" target="_blank" rel="noopener">Paper</a>
+                </div>
+              </td>
+            </tr>
+
+            <!-- MAD-HOI -->
+            <tr onmouseout="madhoi_stop()" onmouseover="madhoi_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <a href="images/madhoi.png" target="_blank" rel="noopener">
+                  <div class="one">
+                    <div class="two" id="madhoi_image"><img src="images/madhoi.png" width="160" alt="MAD-HOI"></div>
+                    <img src="images/madhoi.png" width="160" alt="MAD-HOI">
+                  </div>
+                </a>
+                <script type="text/javascript">
+                  function madhoi_start() { document.getElementById('madhoi_image').style.opacity = "1"; }
+                  function madhoi_stop()  { document.getElementById('madhoi_image').style.opacity = "0"; }
+                  madhoi_stop();
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="venue-badge">CVPR 2026 Workshop</span><br>
+                <span class="papertitle">MAD-HOI: Masked Autoregressive Diffusion for Generating Articulated Hand Object Interactions from Text</span><br>
+                A. Bal, <strong>Kartik Sharma</strong>, E. Lai, S. Tiwari, L. Dahiya, C. Chawla, L.A. Jeni<br>
+                <em>1st PhysHuman Workshop, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em><br>
+                Unifies masked autoregression with flow-matching diffusion in a continuous latent space for text-to-HOI generation, enabling variable-length, composite, infilling, and end-of-motion prediction from a single objective.<br>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/abs/2608.10162" target="_blank" rel="noopener">arXiv</a>
+                  <a href="https://drive.google.com/file/d/1aI8JeP5md6kvS4TWGWkwW8EkFbEGdNQf/view" target="_blank" rel="noopener">Workshop Paper</a>
+                  <a href="https://physhuman.github.io" target="_blank" rel="noopener">Workshop</a>
+                </div>
+              </td>
+            </tr>
+
             <!-- FPSBench -->
             <tr onmouseout="fpsbench_stop()" onmouseover="fpsbench_start()" bgcolor="#ffffd0">
               <td style="padding:16px;width:20%;vertical-align:middle">
