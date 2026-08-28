@@ -38,15 +38,15 @@
                 <p class="name" style="text-align: center;">Kartik Sharma</p>
 
                 <p>
-                  I'm a first-year MSR student at <strong>Carnegie Mellon University</strong>, where I work on <strong>3D/4D reconstruction from video</strong> and <strong>hand-object interaction</strong>, advised by Prof. <a href="https://laszlojeni.com" target="_blank" rel="noopener">Laszlo A. Jeni</a>.
+                  I'm a second-year MSR student at <strong>Carnegie Mellon University</strong>, advised by Prof. <a href="https://laszlojeni.com" target="_blank" rel="noopener">Laszlo A. Jeni</a>. I work on <strong>3D/4D visual understanding and hand-object interaction</strong>. The bigger question I care about is how much of what a robot needs for <strong>dexterous manipulation</strong> it can pick up just by watching.
                 </p>
 
                 <p>
-                  I have been lucky to work with some wonderful researchers along the way. Before CMU, I spent two years at <strong>Samsung R&D Institute India</strong> as a Research Engineer, building multilingual safety filters and on-device vision-language models that shipped to flagship devices. During my undergrad, I worked at the <strong>Vision and AI Lab, IISc Bangalore</strong> with Prof. <a href="https://cds.iisc.ac.in/faculty/venky/" target="_blank" rel="noopener">R. Venkatesh Babu</a> and <a href="https://varunjampani.github.io/" target="_blank" rel="noopener">Varun Jampani</a> on long-tailed image generation with StyleGANs — work that was published at CVPR 2023. I also collaborated with Prof. <a href="https://www.bits-pilani.ac.in/pilani/poonam-goyal/" target="_blank" rel="noopener">Poonam Goyal</a> and Prof. <a href="https://www.bits-pilani.ac.in/pilani/navneet-goyal/" target="_blank" rel="noopener">Navneet Goyal</a> at BITS Pilani's ADAPT Lab on a generalized multimodal approach for early crop yield prediction, published at IEEE Big Data 2022.
+                  I have been lucky to work with some wonderful researchers along the way. Before CMU, I spent two years at <strong>Samsung R&D Institute India</strong> as a Research Engineer, working on multilingual safety systems and compact on-device vision-language models that shipped on flagship devices. During undergrad, I worked at the <strong>Vision and AI Lab, IISc Bangalore</strong> with Prof. <a href="https://cds.iisc.ac.in/faculty/venky/" target="_blank" rel="noopener">R. Venkatesh Babu</a> and <a href="https://varunjampani.github.io/" target="_blank" rel="noopener">Varun Jampani</a> on generative modeling for long-tailed visual distributions, which became a CVPR 2023 paper. I also worked with Prof. <a href="https://www.bits-pilani.ac.in/pilani/poonam-goyal/" target="_blank" rel="noopener">Poonam Goyal</a> and Prof. <a href="https://www.bits-pilani.ac.in/pilani/navneet-goyal/" target="_blank" rel="noopener">Navneet Goyal</a> at BITS Pilani's ADAPT Lab on multimodal learning for crop-yield prediction.
                 </p>
 
                 <p>
-                  I graduated with a dual degree in Computer Science &amp; Economics from <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener">BITS Pilani</a>.
+                  I graduated from <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener">BITS Pilani</a> with a dual degree in Computer Science &amp; Economics.
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%;text-align:center;vertical-align:middle">
@@ -85,29 +85,37 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  My research interests span multimodal learning, embodied AI, and generative modeling — particularly video-based 3D/4D understanding, hand-object interaction, embodied multimodal agents, and safe deployment of vision-language-action systems.
-                  I am fascinated by how humans integrate multiple sensory signals — sight, sound, language — to understand and interact with the world, and I aim to replicate this in artificial systems.
+                  I want to build agents that <strong>learn to manipulate the physical world by watching it</strong>.
+                </p>
+                <p>
+                  Most of what people know about objects, they picked up by looking. We watch someone close a microwave door or pick up a mug and, without being told anything, we get a sense of the object's shape, which parts move, and what our own hands would need to do to repeat it. I want robots to get the same kind of prior from video.
+                </p>
+                <p>
+                  Right now I work on <strong>3D/4D reconstruction, object geometry, and hand-object interaction</strong>. The direction I'm pushing toward is learning object-centric representations from video &mdash; <strong>shape, articulation, deformation, affordances, and how an interaction unfolds over time</strong> &mdash; and using them to train manipulation policies that hold up across many different objects.
+                </p>
+                <p>
+                  I am also interested in <strong>generative modeling, self-supervised learning, and latent world models</strong> as ways to build compact models of the physical world from visual experience. The long-term goal is general-purpose dexterous manipulation.
                 </p>
                 <div class="themes-row">
                   <div class="theme-pill">
-                    <span class="theme-pill-icon">🤖</span>
+                    <span class="theme-pill-icon">👁️</span>
                     <div class="theme-pill-text">
-                      <strong>Embodied Multimodal Reasoning</strong>
-                      <span>Vision-language-action models for agents that reason and act in physical environments.</span>
+                      <strong>Learning Manipulation from Observation</strong>
+                      <span>Pulling reusable manipulation knowledge out of human demonstrations and interaction videos.</span>
                     </div>
                   </div>
                   <div class="theme-pill">
-                    <span class="theme-pill-icon">🎥</span>
+                    <span class="theme-pill-icon">🧩</span>
                     <div class="theme-pill-text">
-                      <strong>3D/4D Understanding from Video</strong>
-                      <span>Reconstructing dynamic scenes, hands, objects, and interactions over time.</span>
+                      <strong>Geometry &amp; 4D Interaction</strong>
+                      <span>Recovering object structure, motion, articulation, deformation, and hand-object contact from video.</span>
                     </div>
                   </div>
                   <div class="theme-pill">
-                    <span class="theme-pill-icon">🛡️</span>
+                    <span class="theme-pill-icon">🌎</span>
                     <div class="theme-pill-text">
-                      <strong>Safe, Deployable AI</strong>
-                      <span>Robust multilingual safety filters and compact on-device models for real-world systems.</span>
+                      <strong>World Models for Embodied Agents</strong>
+                      <span>Generative and predictive models of physical interaction, learned with as little supervision as possible.</span>
                     </div>
                   </div>
                 </div>
