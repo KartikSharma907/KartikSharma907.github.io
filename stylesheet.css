@@ -82,14 +82,15 @@
 }
 
 /* ---------- Base ---------- */
-body, td, th, tr, p, a {
+body, td, th {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.65;
   color: var(--color-text);
 }
 
 body {
+  margin: 0;
   background-color: var(--color-bg);
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -104,16 +105,11 @@ a:focus, a:hover {
   text-decoration: none;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
 h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 16px;
   color: var(--color-h2);
 }
@@ -122,7 +118,7 @@ h3 {
   margin: 0 0 4px;
   font-weight: 600;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   color: var(--color-heading);
 }
 
@@ -130,14 +126,15 @@ h4 {
   margin: 0 0 4px;
   font-weight: 600;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 17px;
   color: var(--color-heading);
 }
 
-/* ---------- Paper hover images ---------- */
+/* ---------- Titles ---------- */
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 19px;
+  line-height: 1.35;
   font-weight: 700;
 }
 
@@ -145,22 +142,9 @@ h4 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 1.2;
 }
 
 .fade {
@@ -183,58 +167,165 @@ span.highlight {
   transform: scale(1.05);
 }
 
-/* Make table row highlights respect dark mode */
-tr[bgcolor="#ffffd0"] {
-  background-color: var(--color-highlight) !important;
+/* ---------- Page shell ---------- */
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 0;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.site-header .name {
+  padding-top: 0;
+}
+
+.avatar {
+  flex: 0 0 160px;
+}
+
+.avatar img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ---------- Tabs ---------- */
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin: 32px 0 28px;
+  border-bottom: 1px solid var(--color-border);
+  overflow-x: auto;
+}
+
+.tab {
+  flex: 0 0 auto;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab:hover {
+  color: var(--color-link);
+}
+
+.tab.active {
+  color: var(--color-link);
+  border-bottom-color: var(--color-link);
+}
+
+.tab-panel {
+  display: none;
+  min-height: 320px;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.tab-panel > p {
+  margin: 0 0 18px;
+}
+
+/* ---------- Publication / project entries ---------- */
+.pub {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 22px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+}
+
+.pub.highlight {
+  background-color: var(--color-highlight);
+}
+
+.pub-thumb {
+  flex: 0 0 220px;
+}
+
+.pub-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-note {
+  font-size: 15px;
+  color: var(--color-text-muted);
 }
 
 /* ---------- Research Theme Pills ---------- */
 .themes-row {
   display: flex;
-  gap: 12px;
+  gap: 14px;
+  margin-top: 26px;
   flex-wrap: wrap;
 }
 
 .theme-pill {
   display: flex;
   align-items: flex-start;
-  gap: 8px;
-  padding: 10px 12px;
+  gap: 10px;
+  padding: 14px 16px;
   border: 1px solid var(--color-border);
   border-radius: 6px;
   background: linear-gradient(135deg, var(--color-card-bg) 0%, var(--color-card-grad-end) 100%);
   flex: 1;
-  min-width: 180px;
+  min-width: 200px;
 }
 
 .theme-pill-icon {
-  font-size: 18px;
+  font-size: 22px;
   flex-shrink: 0;
   margin-top: 1px;
 }
 
 .theme-pill-text strong {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   color: var(--color-heading);
   margin-bottom: 2px;
 }
 
 .theme-pill-text span {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--color-text-muted);
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 /* ---------- Venue badge ---------- */
 .venue-badge {
   display: inline-block;
-  font-size: 11px;
+  font-size: 12.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  padding: 2px 7px;
-  border-radius: 3px;
+  padding: 3px 9px;
+  border-radius: 4px;
   background: var(--color-badge-bg);
   color: var(--color-badge-text);
   margin-bottom: 4px;
@@ -242,12 +333,12 @@ tr[bgcolor="#ffffd0"] {
 
 /* ---------- Paper links ---------- */
 .paper-links {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .paper-links a {
   color: var(--color-link);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .paper-links a:hover {
@@ -261,8 +352,8 @@ tr[bgcolor="#ffffd0"] {
 
 /* ---------- Experience entries ---------- */
 .exp-item {
-  padding: 12px 16px;
-  margin-bottom: 10px;
+  padding: 18px 22px;
+  margin-bottom: 14px;
   border-radius: 6px;
   border: 1px solid var(--color-border);
   background: linear-gradient(135deg, var(--color-card-bg) 0%, var(--color-card-grad-end) 100%);
@@ -278,23 +369,28 @@ tr[bgcolor="#ffffd0"] {
   align-items: baseline;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.exp-header strong {
+  font-size: 19px;
 }
 
 .exp-org {
   color: var(--color-text-muted);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .exp-date {
   margin-left: auto;
-  font-size: 12px;
+  font-size: 15px;
   color: var(--color-text-muted);
   white-space: nowrap;
 }
 
 /* ---------- Collapsible older projects ---------- */
 .collapse-toggle {
+  margin-top: 14px;
   background: none;
   border: none;
   cursor: pointer;
@@ -341,7 +437,7 @@ tr[bgcolor="#ffffd0"] {
 }
 
 .older-entry {
-  padding: 8px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -360,25 +456,24 @@ tr[bgcolor="#ffffd0"] {
 .older-entry p {
   margin: 0;
   color: var(--color-text-muted);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /* ---------- Bio icon links ---------- */
 .bio-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 6px;
-  margin-top: 14px;
+  gap: 8px;
+  margin-top: 16px;
 }
 
 .bio-links a {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 5px 10px;
+  gap: 6px;
+  padding: 7px 14px;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-text-muted);
   border: 1px solid var(--color-border);
@@ -457,6 +552,44 @@ tr[bgcolor="#ffffd0"] {
 
 /* ---------- Mobile ---------- */
 @media (max-width: 600px) {
+  .page {
+    padding: 24px 16px 0;
+  }
+  .site-header {
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+  }
+  .bio-links {
+    justify-content: center;
+  }
+  .name {
+    font-size: 32px;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: none;
+    margin: 22px 0 20px;
+  }
+  .tab {
+    padding: 10px 11px;
+    font-size: 16px;
+  }
+  .pub {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px;
+  }
+  .pub-thumb {
+    flex: none;
+    max-width: 340px;
+  }
+  .exp-date {
+    margin-left: 0;
+    width: 100%;
+  }
   .themes-row {
     flex-direction: column;
   }
