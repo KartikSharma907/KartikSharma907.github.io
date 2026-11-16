@@ -64,27 +64,11 @@
 
       <!-- ==================== TABS ==================== -->
       <div class="tabs" role="tablist">
-        <span class="tab-indicator" aria-hidden="true"></span>
-        <button class="tab active" role="tab" data-tab="overview" aria-label="Overview" aria-selected="true" aria-controls="panel-overview">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <span>Overview</span>
-        </button>
-        <button class="tab" role="tab" data-tab="research" aria-label="Research Interests" aria-selected="false" aria-controls="panel-research">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
-          <span>Research Interests</span>
-        </button>
-        <button class="tab" role="tab" data-tab="publications" aria-label="Publications" aria-selected="false" aria-controls="panel-publications">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-          <span>Publications</span>
-        </button>
-        <button class="tab" role="tab" data-tab="experience" aria-label="Experience" aria-selected="false" aria-controls="panel-experience">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
-          <span>Experience</span>
-        </button>
-        <button class="tab" role="tab" data-tab="projects" aria-label="Projects" aria-selected="false" aria-controls="panel-projects">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-          <span>Projects</span>
-        </button>
+        <button class="tab active" role="tab" data-tab="overview" aria-selected="true" aria-controls="panel-overview">Overview</button>
+        <button class="tab" role="tab" data-tab="research" aria-selected="false" aria-controls="panel-research">Research Interests</button>
+        <button class="tab" role="tab" data-tab="publications" aria-selected="false" aria-controls="panel-publications">Publications</button>
+        <button class="tab" role="tab" data-tab="experience" aria-selected="false" aria-controls="panel-experience">Experience</button>
+        <button class="tab" role="tab" data-tab="projects" aria-selected="false" aria-controls="panel-projects">Projects</button>
       </div>
 
       <!-- ==================== OVERVIEW ==================== -->
@@ -366,14 +350,6 @@
       // Tabs: the URL hash (#publications etc.) selects the visible panel
       (function() {
         var tabs = document.querySelectorAll('.tab');
-        var indicator = document.querySelector('.tab-indicator');
-        var active;
-        // slide the highlight pill under the active tab
-        function place() {
-          indicator.style.width = active.offsetWidth + 'px';
-          indicator.style.height = active.offsetHeight + 'px';
-          indicator.style.transform = 'translate(' + active.offsetLeft + 'px,' + active.offsetTop + 'px)';
-        }
         function show(name) {
           if (!document.getElementById('panel-' + name)) name = 'overview';
           tabs.forEach(function(t) {
@@ -381,19 +357,12 @@
             t.classList.toggle('active', on);
             t.setAttribute('aria-selected', on);
             document.getElementById('panel-' + t.dataset.tab).classList.toggle('active', on);
-            if (on) active = t;
           });
-          place();
-          // the tab bar is sticky: if we were scrolled down, bring the new panel's top back into view
-          var top = document.getElementById('panel-' + name).getBoundingClientRect().top;
-          if (top < 0) window.scrollBy(0, top - 96);
         }
         tabs.forEach(function(t) {
           t.addEventListener('click', function() { location.hash = t.dataset.tab; });
         });
         window.addEventListener('hashchange', function() { show(location.hash.slice(1)); });
-        window.addEventListener('resize', place);
-        window.addEventListener('load', place);
         show(location.hash.slice(1));
       })();
 
