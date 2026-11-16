@@ -206,11 +206,6 @@ body.home {
   letter-spacing: -0.4px;
 }
 
-.tagline {
-  margin: 2px 0 0;
-  color: var(--color-text-muted);
-}
-
 /* photo with a gradient ring */
 .avatar {
   flex: 0 0 auto;
